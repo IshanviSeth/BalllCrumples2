@@ -10,8 +10,8 @@ const Body = Matter.Body;
 
 function preload(){
   //Loading the images in the computer's memory
-   dustbin_image = loadImage("./Dustbin.png")
-   ball_image = loadImage("./PaperBall.png")
+   dustbin_image = loadImage("Dustbin.png")
+   ball_image = loadImage("PaperBall.png")
 }
 
 function setup() {
