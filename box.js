@@ -15,7 +15,7 @@ class Box{
       Matter.Body.setAngle(this.Lbody,angle)
       this.width = width;
       this.height = height;
-      this.image = loadImage("sprites/Dustbin.png");
+      this.image = loadImage("./Dustbin.png");
 
       World.add(world, this.Rbody);
       World.add(world, this.Lbody);
