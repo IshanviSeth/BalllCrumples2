@@ -6,7 +6,7 @@ class Ball {
         'density':0.5
     }
       this.radius = radius
-        this.image = loadImage("sprites/PaperBall.png")
+        this.image = loadImage("./PaperBall.png")
         this.body = Bodies.circle(x,y,radius,options)
         World.add(world,this.body)
        // Matter.Body.setRadius(this.radius, radius)
